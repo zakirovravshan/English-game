@@ -1,3 +1,0 @@
-// Game page
-
-// Game page
