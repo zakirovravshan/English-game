@@ -4,6 +4,7 @@
 
 .home-title {
 	font-size: 48px;
+	text-align: center;
 }
 
 .buttons-wrapper {
@@ -21,8 +22,8 @@
 	background: #fff;
 	border-radius: 50%;
 	margin: 10px;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	font-size: 18px;
 	display: flex;
 	justify-content: center;
@@ -71,23 +72,23 @@
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.buttons-wrapper .facebook:hover,
-.buttons-wrapper .facebook:hover .tooltip,
-.buttons-wrapper .facebook:hover .tooltip::before {
-	background: #1877f2;
+.buttons-wrapper .easy:hover,
+.buttons-wrapper .easy:hover .tooltip,
+.buttons-wrapper .easy:hover .tooltip::before {
+	background: green;
 	color: #fff;
 }
 
-.buttons-wrapper .twitter:hover,
-.buttons-wrapper .twitter:hover .tooltip,
-.buttons-wrapper .twitter:hover .tooltip::before {
+.buttons-wrapper .medium:hover,
+.buttons-wrapper .medium:hover .tooltip,
+.buttons-wrapper .medium:hover .tooltip::before {
 	background: #1da1f2;
 	color: #fff;
 }
 
-.buttons-wrapper .instagram:hover,
-.buttons-wrapper .instagram:hover .tooltip,
-.buttons-wrapper .instagram:hover .tooltip::before {
+.buttons-wrapper .hard:hover,
+.buttons-wrapper .hard:hover .tooltip,
+.buttons-wrapper .hard:hover .tooltip::before {
 	background: #e4405f;
 	color: #fff;
 }
