@@ -1,3 +1,4 @@
+// index html Login page
 const form = document.getElementById('form');
 const elBtn = document.getElementById('btn');
 
@@ -13,13 +14,19 @@ form.addEventListener('submit', function (e) {
 	localStorage.setItem('age', age);
 
 	form.reset();
-    if(name,surname,age){
-        location.href = 'home.html';
-    }else{
-        alert("toldir malumotlani ")
-    }
-	
-
-	
+	if ((name, surname, age)) {
+		location.href = 'home.html';
+	} else {
+		alert('toldir malumotlani ');
+	}
 });
 
+// index html Login page
+
+// Home html home page
+
+const elEasyBtn = document.querySelector('.easy-btn');
+const elMediumBtn = document.querySelector('.medium-btn');
+const elHardBtn = document.querySelector('.hard-btn');
+
+// Home html home page
