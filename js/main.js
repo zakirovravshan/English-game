@@ -1,9 +1,6 @@
 // index html Login page
 const form = document.getElementById('form');
 const elBtn = document.getElementById('btn');
-const  userName = localStorage.getItem("name");
-const  userSurname = localStorage.getItem("surname");
-document.getElementById("userName").textContent = userName + " " + userSurname ;
 
 form.addEventListener('submit', function (e) {
 	e.preventDefault();
@@ -24,6 +21,41 @@ form.addEventListener('submit', function (e) {
 	}
 });
 
-
-
 // index html Login page
+
+// Home html home page
+
+const elEasyBtn = document.querySelector('.easy-btn');
+const elMediumBtn = document.querySelector('.medium-btn');
+const elHardBtn = document.querySelector('.hard-btn');
+const userName = localStorage.getItem('name');
+const userSurname = localStorage.getItem('surname');
+document.getElementById('userName').textContent = userName + ' ' + userSurname;
+
+const logOut = document.getElementById('logout');
+
+logOut.addEventListener('click', function () {
+	localStorage.removeItem('name');
+	localStorage.removeItem('surname');
+	localStorage.removeItem('age');
+
+	location.href = 'index.html';
+});
+
+elEasyBtn.addEventListener('click', function () {
+	location.href = 'game.html';
+});
+
+elMediumBtn.addEventListener('click', function () {
+	location.href = 'game.html';
+});
+
+elHardBtn.addEventListener('click', function () {
+	location.href = 'game.html';
+});
+
+// Home html home page
+
+// Game page
+
+// Game page
