@@ -1,6 +1,9 @@
 // index html Login page
 const form = document.getElementById('form');
 const elBtn = document.getElementById('btn');
+const  userName = localStorage.getItem("name");
+const  userSurname = localStorage.getItem("surname");
+document.getElementById("userName").textContent = userName + " " + userSurname ;
 
 form.addEventListener('submit', function (e) {
 	e.preventDefault();
@@ -20,6 +23,8 @@ form.addEventListener('submit', function (e) {
 		alert('toldir malumotlani ');
 	}
 });
+
+
 
 // index html Login page
 
