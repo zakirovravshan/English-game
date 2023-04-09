@@ -27,11 +27,3 @@ form.addEventListener('submit', function (e) {
 
 
 // index html Login page
-
-// Home html home page
-
-const elEasyBtn = document.querySelector('.easy-btn');
-const elMediumBtn = document.querySelector('.medium-btn');
-const elHardBtn = document.querySelector('.hard-btn');
-
-// Home html home page
