@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/main.css" />
-		<title>English Game</title>
-	</head>
 
-	<body>
-		<script src="./js/main.js"></script>
-		<script src="./js/data.js"></script>
-	</body>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<title>English Game</title>
+</head>
+
+<body style="background-color: #fbbd5e" >
+
+	<div class="w-full max-w-xs mx-auto mt-10  ">
+		<form id="form" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-96">
+			<h1 class="text-2xl mx-auto text-center">
+				Вход
+			</h1>
+			<div class="mb-8">
+				<label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+					Name
+				</label>
+				<input
+					class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+					id="name" type="text" placeholder="Enter your name">
+			</div>
+			<div class="mb-8">
+				<label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+					Surname
+				</label>
+				<input
+					class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+					id="surname" type="text" placeholder="Enter your surname">
+			</div>
+			<div class="mb-8">
+				<label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+					Age
+				</label>
+				<input
+					class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+					id="age" type="number" placeholder="Enter you real age">
+			</div>
+			<div class="flex items-center justify-between">
+				<button
+					class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+					type="submit">
+					Sign In
+				</button>
+			</div>
+			<p class="text-center text-gray-500 text-xs mt-3">
+				&copy;2023 UX GROUP. All rights reserved.
+			</p>
+		</form>
+
+	</div>
+
+	<script src="./js/main.js"></script>
+</body>
+
 </html>
