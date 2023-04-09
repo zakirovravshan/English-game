@@ -1,21 +1,25 @@
-
 const form = document.getElementById('form');
+const elBtn = document.getElementById('btn');
 
+form.addEventListener('submit', function (e) {
+	e.preventDefault();
 
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
-  
-    const name = document.getElementById('name').value;
-    const surname = document.getElementById('surname').value;
-    const age = document.getElementById('age').value;
-  
-    localStorage.setItem('name', name);
-    localStorage.setItem('surname', surname);
-    localStorage.setItem('age', age);
-  
-    form.reset();
-  
-    alert('Data saved successfully!');
+	const name = document.getElementById('name').value;
+	const surname = document.getElementById('surname').value;
+	const age = document.getElementById('age').value;
 
-    location.href = "home.html"
-  });
+	localStorage.setItem('name', name);
+	localStorage.setItem('surname', surname);
+	localStorage.setItem('age', age);
+
+	form.reset();
+    if(name,surname,age){
+        location.href = 'home.html';
+    }else{
+        alert("toldir malumotlani ")
+    }
+	
+
+	
+});
+
