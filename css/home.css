@@ -74,16 +74,19 @@
 .easy-btn {
 	background-color: transparent;
 	border: none;
+	cursor: pointer;
 }
 
 .medium-btn {
 	background-color: transparent;
 	border: none;
+	cursor: pointer;
 }
 
 .hard-btn {
 	background-color: transparent;
 	border: none;
+	cursor: pointer;
 }
 
 .buttons-wrapper .icon:hover span,
